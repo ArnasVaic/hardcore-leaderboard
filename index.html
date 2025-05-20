@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hardcore Death Leaderboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    :root {
+      --bg: #1e1e2f;
+      --card: #2c2c3f;
+      --text: #f0f0f0;
+      --accent: #ff4d6d;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      min-height: 100vh;
+      padding: 2rem;
+    }
+
+    .container {
+      max-width: 600px;
+      width: 100%;
+      background: var(--card);
+      border-radius: 16px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+      padding: 2rem;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 1.5rem;
+      color: var(--accent);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 1rem;
+    }
+
+    th, td {
+      padding: 0.75rem;
+      text-align: left;
+      border-bottom: 1px solid #444;
+    }
+
+    th {
+      background: #3a3a5a;
+    }
+
+    tr:nth-child(even) {
+      background: #2a2a40;
+    }
+
+    .footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #aaa;
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>💀 Hardcore Death Leaderboard</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Player</th>
+          <th>Deaths</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Simas</td>
+          <td>4</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Mantis</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Povilas</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Aleksas</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>Gabris</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td>Andrius</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td>Arnas</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>8</td>
+          <td>Adomas</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>9</td>
+          <td>Julius</td>
+          <td>0</td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="footer">Stay alive out there!</div>
+  </div>
+</body>
+</html>
